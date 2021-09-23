@@ -23,7 +23,7 @@ git clone https://github.com/dalbyryan3/dot-files.git ~/
 ln -s ~/dot_files/.vimrc ~/.vimrc 
 ```
 
-## VIM Setup
+## Vim Setup
 ### Install Vundle for plugins
 ```bash
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
