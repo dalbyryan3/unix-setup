@@ -15,7 +15,7 @@
 
 ## Get dot files:
 ```bash
-git clone https://github.com/dalbyryan3/dot-files.git ~/
+git clone https://github.com/dalbyryan3/dot-files.git ~/dot-files
 ```
 
 ### Use dot files for specific Unix system as desired using symlinks, i.e. for .vimrc:
