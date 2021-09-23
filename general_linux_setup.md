@@ -1,4 +1,4 @@
-# Ryan Dalby General Linux Setup
+# Ryan Dalby General Unix Setup
 
 ## General programs to Install
 * Vim- For general text editing, works well with command line (install vim or related vim package that may contain gvim)
