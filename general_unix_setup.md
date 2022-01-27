@@ -34,4 +34,4 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim
 :PluginInstall
 ```
-
+(Note if fzf outside of Vim is installed through :PluginInstall, will have to run install script in ~/.vim/bundle/fzf/install to get command line integration)
