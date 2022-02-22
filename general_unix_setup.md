@@ -1,7 +1,9 @@
 # Ryan Dalby General Unix Setup
 
 ## General programs to Install
-* Vim- For general text editing, works well with command line (install vim or related vim package that may contain gvim)
+* Vim- For general text editing, works well with command line (install vim or related vim package that may contain gvim using package manager)
+
+* Tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh (intall tmux using package manager)
 
 * VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode gui
 
@@ -34,4 +36,17 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim
 :PluginInstall
 ```
+
+## Tmux Setup
+### Install tmux-plugins for plugins
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+### Use .tmux.conf from dot_files and open tmux and install plugins
+```bash
+tmux
+prefix + I
+```
+
+
 
