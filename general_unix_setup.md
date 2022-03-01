@@ -57,3 +57,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux
 prefix + I
 ```
+
+## VSCode Setup
+Login using GitHub to sync settings JSON files and install extensions.
