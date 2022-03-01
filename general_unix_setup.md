@@ -1,11 +1,11 @@
 # Ryan Dalby General Unix Setup
 
-## General programs to Install
+## General Programs to Install
 * Vim- For general text editing, works well with command line (install vim or related vim package that may contain gvim using package manager)
 
-* Tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh (intall tmux using package manager)
+* Tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh (install tmux using package manager)
 
-* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode gui
+* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode gui (install VSCode using package manager or through web browser)
 
 ## General Themes and Keybindings
 ### Theme- One Dark
@@ -19,10 +19,19 @@
 ```bash
 git clone https://github.com/dalbyryan3/dot-files.git ~/dot-files
 ```
+(Note for shell related config (~/.bashrc, ~/.zshrc, etc.) the files may not play well if used directly from dot-files repository with another system (shell configs are there mainly for just getting the idea of the settings), for application configs should be fine as is, see Shell Configuration for key things to append to shell config)
 
 ### Use dot files for specific Unix system as desired using symlinks, i.e. for .vimrc:
 ```bash
 ln -s ~/dot-files/.vimrc ~/.vimrc 
+```
+
+## Shell Configuration
+### Add the following to bash related config (~/.bashrc, ~/.zshrc, etc.)
+```bash
+export VISUAL=vim
+export EDITOR="$VISUAL"
+alias tmux="tmux -2"
 ```
 
 ## Vim Setup
