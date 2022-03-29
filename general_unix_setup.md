@@ -7,6 +7,8 @@
 
 * VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode gui (install VSCode using package manager or through web browser)
 
+* The Silver Searcher (Ag)- For searching text files across directories (install The Silver Searcher using package manager)
+
 ## General Themes and Keybindings
 ### Theme- One Dark
 * One Dark Pro plugin for VS Code
