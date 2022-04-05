@@ -1,18 +1,18 @@
 # Ryan Dalby General Unix Setup
 
 ## General Programs to Install
-* Vim- For general text editing, works well with command line (install vim or related vim package that may contain gvim using package manager)
+* Vim- For general text editing, works well with command line. Install vim or related vim package that may contain gvim using package manager. (https://github.com/vim/vim)
 
-* Tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh (install tmux using package manager)
+* Tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using package manager. (https://github.com/tmux/tmux)
 
-* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode gui (install VSCode using package manager or through web browser)
+* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using package manager or through web browser. (https://github.com/microsoft/vscode)
 
-* The Silver Searcher (Ag)- For searching text files across directories (install The Silver Searcher using package manager)
+* The Silver Searcher (Ag)- For searching text files across directories. Install The Silver Searcher using package manager. (https://github.com/ggreer/the_silver_searcher)
 
 ## General Themes and Keybindings
 ### Theme- One Dark
 * One Dark Pro plugin for VS Code
-* Onedark.vim for Vim https://github.com/joshdick/onedark.vim (Install like vim plugin)
+* Onedark.vim for Vim https://github.com/joshdick/onedark.vim (Install like vim plugin in .vimrc)
 ### Keybindings- Vim 
 * VSCodeVim plugin for VS Code
 * Standard Vim keybindings in Vim
