@@ -21,7 +21,7 @@
 ```bash
 git clone https://github.com/dalbyryan3/dot-files.git ~/dot-files
 ```
-(Note for shell related config (~/.bashrc, ~/.zshrc, etc.) the files may not play well if used directly from dot-files repository with another system (shell configs are there mainly for just getting the idea of the settings), for application configs should be fine as is, see Shell Configuration for key things to append to shell config)
+(Note for shell related config (~/.bashrc, ~/.zshrc, etc.) the files may not play well if used directly from dot-files repository with another system (shell configs are there mainly for just getting the idea of the settings), for application configs should be fine as is, see Shell Configuration for key things to append to shell config. Also note that some configs in dot-files repository are for certain shells or operating systems so just use what is needed for use case.)
 
 ### Use dot files for specific Unix system as desired using symlinks, i.e. for .vimrc:
 ```bash
