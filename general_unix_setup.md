@@ -5,7 +5,7 @@
 
 * tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using a package manager. (https://github.com/tmux/tmux)
 
-* vscode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using a package manager or through web browser. (https://github.com/microsoft/vscode)
+* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using a package manager or through web browser. (https://github.com/microsoft/vscode)
 
 * fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim) or install using a package manager. (https://github.com/junegunn/fzf)
 
@@ -13,10 +13,10 @@
 
 ## General Themes and Keybindings
 ### Theme- One Dark
-* One Dark Pro plugin for VS Code
+* One Dark Pro plugin for VSCode
 * Onedark.vim for vim https://github.com/joshdick/onedark.vim (Install like vim plugin in .vimrc)
 ### Keybindings- Vim 
-* VSCodeVim plugin for VS Code
+* VSCodeVim plugin for VSCode
 * Standard vim keybindings in vim
 
 ## Get dot files:
