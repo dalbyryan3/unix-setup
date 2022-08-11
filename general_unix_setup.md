@@ -1,15 +1,15 @@
 # Ryan Dalby General Unix Setup
 
 ## General Programs to Install
-* vim- For general text editing, works well with command line. Install vim or related vim package that may contain gvim using package manager. (https://github.com/vim/vim)
+* vim- For general text editing, works well with command line. Install vim or related vim package that may contain gvim using a package manager. (https://github.com/vim/vim)
 
-* tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using package manager. (https://github.com/tmux/tmux)
+* tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using a package manager. (https://github.com/tmux/tmux)
 
-* vscode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using package manager or through web browser. (https://github.com/microsoft/vscode)
+* vscode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using a package manager or through web browser. (https://github.com/microsoft/vscode)
 
-* fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim) or install using package manager. (https://github.com/junegunn/fzf)
+* fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim) or install using a package manager. (https://github.com/junegunn/fzf)
 
-* ag (the silver searcher)- For searching text files across directories. Install The Silver Searcher using package manager. (https://github.com/ggreer/the_silver_searcher)
+* ag (the silver searcher)- For searching text files across directories. Install ag using a package manager. (https://github.com/ggreer/the_silver_searcher)
 
 ## General Themes and Keybindings
 ### Theme- One Dark
