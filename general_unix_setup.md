@@ -1,21 +1,23 @@
 # Ryan Dalby General Unix Setup
 
 ## General Programs to Install
-* Vim- For general text editing, works well with command line. Install vim or related vim package that may contain gvim using package manager. (https://github.com/vim/vim)
+* vim- For general text editing, works well with command line. Install vim or related vim package that may contain gvim using package manager. (https://github.com/vim/vim)
 
-* Tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using package manager. (https://github.com/tmux/tmux)
+* tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using package manager. (https://github.com/tmux/tmux)
 
 * VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using package manager or through web browser. (https://github.com/microsoft/vscode)
 
-* The Silver Searcher (Ag)- For searching text files across directories. Install The Silver Searcher using package manager. (https://github.com/ggreer/the_silver_searcher)
+* fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim) or install using package manager. (https://github.com/junegunn/fzf)
+
+* ag (the silver searcher)- For searching text files across directories. Install The Silver Searcher using package manager. (https://github.com/ggreer/the_silver_searcher)
 
 ## General Themes and Keybindings
 ### Theme- One Dark
 * One Dark Pro plugin for VS Code
-* Onedark.vim for Vim https://github.com/joshdick/onedark.vim (Install like vim plugin in .vimrc)
+* Onedark.vim for vim https://github.com/joshdick/onedark.vim (Install like vim plugin in .vimrc)
 ### Keybindings- Vim 
 * VSCodeVim plugin for VS Code
-* Standard Vim keybindings in Vim
+* Standard vim keybindings in vim
 
 ## Get dot files:
 ```bash
@@ -42,7 +44,7 @@ alias tmux="tmux -2"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-### Use .vimrc from dot_files and open Vim and install plugins
+### Use .vimrc from dot_files and open vim and install plugins
 ```bash
 vim
 :PluginInstall
