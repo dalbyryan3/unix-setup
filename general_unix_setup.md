@@ -5,7 +5,7 @@
 
 * tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using package manager. (https://github.com/tmux/tmux)
 
-* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using package manager or through web browser. (https://github.com/microsoft/vscode)
+* vscode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using package manager or through web browser. (https://github.com/microsoft/vscode)
 
 * fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim) or install using package manager. (https://github.com/junegunn/fzf)
 
