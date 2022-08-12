@@ -7,7 +7,7 @@
 
 * VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using a package manager or through web browser. (https://github.com/microsoft/vscode)
 
-* fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim) or install using a package manager. (https://github.com/junegunn/fzf)
+* fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim, once installed execute the install script in ~/.vim/bundle/fzf/install) or install using a package manager. (https://github.com/junegunn/fzf)
 
 * ag (the silver searcher)- For searching text files across directories. Install ag using a package manager. (https://github.com/ggreer/the_silver_searcher)
 
@@ -49,7 +49,6 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim
 :PluginInstall
 ```
-(Note if fzf outside of Vim is installed through :PluginInstall, will have to run install script in ~/.vim/bundle/fzf/install to get command line integration)
 
 ## Tmux Setup
 ### Install tmux-plugins for plugins
