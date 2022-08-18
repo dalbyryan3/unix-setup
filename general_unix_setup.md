@@ -5,11 +5,13 @@
 
 * tmux- Allows for terminal multiplexing and persistent session, especially useful when using ssh. Install tmux using a package manager. (https://github.com/tmux/tmux)
 
-* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using a package manager or through web browser. (https://github.com/microsoft/vscode)
+* git- For git-based version control. Install git using a package manager. (https://github.com/git/git)
 
 * fzf- For fuzzy searching through command-line history and files. Install through vim while installing plugins (specifically when installing fzf.vim, once installed execute the install script ~/.vim/bundle/fzf/install) or install using a package manager. (https://github.com/junegunn/fzf)
 
 * ag (the silver searcher)- For searching text files across directories. Install ag using a package manager. (https://github.com/ggreer/the_silver_searcher)
+
+* VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using a package manager or through web browser. (https://github.com/microsoft/vscode)
 
 ## General Themes and Keybindings
 ### Theme- One Dark
