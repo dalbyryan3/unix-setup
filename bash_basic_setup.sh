@@ -31,6 +31,7 @@ grep -qxF 'alias gs="git status"' ~/.bashrc || echo 'alias gs="git status"' >> ~
 grep -qxF 'alias gl="git log"' ~/.bashrc || echo 'alias gl="git log"' >> ~/.bashrc
 grep -qxF 'alias ga="git add"' ~/.bashrc || echo 'alias ga="git add"' >> ~/.bashrc
 grep -qxF 'alias gc="git commit"' ~/.bashrc || echo 'alias gc="git commit"' >> ~/.bashrc
+grep -qxF 'alias gcm="git commit -m"' ~/.bashrc || echo 'alias gcm="git commit -m"' >> ~/.bashrc
 grep -qxF 'alias gd="git diff"' ~/.bashrc || echo 'alias gd="git diff"' >> ~/.bashrc
 
 echo
