@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script assumes having the apt package manager
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install curl -y
