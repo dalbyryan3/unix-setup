@@ -13,6 +13,8 @@
 
 * VSCode- For more in-depth text editing and/or general coding, can install plugins easily using VSCode GUI. Install VSCode using a package manager or through web browser. (https://github.com/microsoft/vscode)
 
+* miniconda- General binary package manager, but works well for Python environment management (https://docs.conda.io/en/latest/miniconda.html)
+
 ## General Themes and Keybindings
 ### Theme- One Dark
 * One Dark Pro plugin for VSCode
