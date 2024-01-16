@@ -15,6 +15,8 @@
 
 * miniconda- General binary package manager, but works well for Python environment management (https://docs.conda.io/en/latest/miniconda.html)
 
+* nvim- For general text editing, works well with command line. Out of the box has better support for Language Servers than standard Vim so can be configured closer to VSCode. Install nvim using a package manager. (https://github.com/neovim/neovim)
+
 ## General Themes and Keybindings
 ### Theme- One Dark
 * One Dark Pro plugin for VSCode
